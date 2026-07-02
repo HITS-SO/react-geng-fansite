@@ -1,0 +1,31 @@
+interface SectionTitleProps {
+    title: string;
+    subtitle?: string;
+    align?: "left" | "center";
+}
+
+const SectionTitle = ({
+    title,
+    subtitle,
+    align = "center",
+}: SectionTitleProps) => {
+    return (
+        <div
+            className={`mb-12 ${
+                align === "center" ? "text-center" : "text-left"
+            }`}
+        >
+            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
+                {title}
+            </h2>
+
+            {subtitle && (
+                <p className="mt-3 text-base text-gray-500 md:text-lg">
+                    {subtitle}
+                </p>
+            )}
+        </div>
+    );
+};
+
+export default SectionTitle;
