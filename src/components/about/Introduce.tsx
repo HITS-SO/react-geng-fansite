@@ -8,7 +8,7 @@ export const Introduction = () => {
         <Section>
             <SectionTitle
                 title={introduction.title}
-                subtitle="Building the Future of Esports"
+                subtitle="ESports의 미래를 만들어가다"
             />
 
             <div className="mx-auto max-w-4xl">

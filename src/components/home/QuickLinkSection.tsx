@@ -9,8 +9,8 @@ const QuickLinkSection = () => {
     return (
         <Section>
             <SectionTitle
-                title="Quick Links"
-                subtitle="Connect with Gen.G across all platforms"
+                title="With Gen.G"
+                subtitle="다양한 플랫폼에서 Gen.G와 함께하세요"
             />
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

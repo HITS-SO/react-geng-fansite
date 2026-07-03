@@ -11,8 +11,8 @@ const AchievementPreview = () => {
     return (
         <Section>
             <SectionTitle
-                title="Achievements"
-                subtitle="Highlights from Gen.G History"
+                title="Moment of glory"
+                subtitle="승리로 증명해온 Gen.G의 역사"
             />
 
             <div className="grid gap-6 md:grid-cols-3">
@@ -38,7 +38,7 @@ const AchievementPreview = () => {
                         hover:bg-orange-500
                     "
                 >
-                    View Full History
+                    Gen.G의 레거시
                 </Link>
             </div>
         </Section>

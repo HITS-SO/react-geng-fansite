@@ -9,7 +9,7 @@ const CoachSection = () => {
         <Section>
             <SectionTitle
                 title="Coaching Staff"
-                subtitle="Leading Gen.G to Victory"
+                subtitle="Gen.G의 승리를 이끄는 전략가들"
             />
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

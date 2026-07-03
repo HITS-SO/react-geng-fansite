@@ -9,7 +9,7 @@ const CoachSection = () => {
         <Section>
             <SectionTitle
                 title="Players"
-                subtitle="Current Gen.G League of Legends Roster"
+                subtitle="LCK를 이끌어가는 최고의 선수들"
             />
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

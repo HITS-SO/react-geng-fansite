@@ -6,7 +6,10 @@ import { coreValues } from "@/data/about";
 export const CoreValues = () => {
     return (
         <Section>
-            <SectionTitle title="Core Values" subtitle="What Drives Gen.G" />
+            <SectionTitle
+                title="Core Value"
+                subtitle="무엇이 Gen.G를 움직이게 하는가"
+            />
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 {coreValues.map((value) => (

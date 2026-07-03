@@ -11,7 +11,7 @@ export interface FeaturedPlayer {
 
 export const featuredPlayer: FeaturedPlayer = {
     nickname: "Ruler",
-    role: "ADC",
+    role: "The Greatest AD Carry Of All Time",
     image: ruler,
 
     description:

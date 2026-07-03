@@ -9,8 +9,8 @@ const FeaturedPlayer = () => {
     return (
         <Section>
             <SectionTitle
-                title="Featured Player"
-                subtitle="Celebrating a Gen.G Legend"
+                title="Legend Of Gen.G"
+                subtitle="Gen.G의 역사를 함께 써 내려간 레전드"
             />
 
             <div

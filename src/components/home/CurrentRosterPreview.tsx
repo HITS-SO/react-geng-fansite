@@ -10,8 +10,8 @@ const CurrentRosterPreview = () => {
     return (
         <Section>
             <SectionTitle
-                title="Current Roster"
-                subtitle="Meet the 2025 Gen.G League of Legends Team"
+                title="2026 Season Roaster"
+                subtitle="Gen.G를 대표하는 League of Legends 로스터"
             />
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
