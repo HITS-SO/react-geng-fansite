@@ -7,15 +7,15 @@ import { homeHero } from "../data/hero";
 import Section from "../components/common/Section";
 import SectionTitle from "../components/common/SectionTitle";
 import CurrentRosterPreview from "../components/home/CurrentRosterPreview";
+import FeaturedPlayer from "@/components/home/FeaturedPlayer";
 
 export const Home = () => {
     return (
         <main>
             <Header />
             <HeroSection hero={homeHero} />
-            <Section>
-                <CurrentRosterPreview />
-            </Section>
+            <CurrentRosterPreview />
+            <FeaturedPlayer />
             <Footer />
         </main>
     );

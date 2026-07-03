@@ -33,7 +33,7 @@ const CurrentRosterPreview = () => {
                         hover:bg-orange-500
                     "
                 >
-                    View All Players
+                    상세 로스터 보러가기
                 </Link>
             </div>
         </Section>
