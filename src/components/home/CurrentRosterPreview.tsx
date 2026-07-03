@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import Section from "@/components/common/Section";
 import SectionTitle from "@/components/common/SectionTitle";
-import PlayerCard from "@/components/players/PlayerCard";
+import TeamMemberCard from "@/components/players/TeamMemberCard";
 
 import { players } from "@/data/players";
 
@@ -16,7 +16,14 @@ const CurrentRosterPreview = () => {
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
                 {players.map((player) => (
-                    <PlayerCard key={player.id} player={player} />
+                    <TeamMemberCard
+                        key={player.id}
+                        image={player.image}
+                        nickname={player.nickname}
+                        name={player.name}
+                        position={player.role}
+                        link={`/players/${player.slug}`}
+                    />
                 ))}
             </div>
 

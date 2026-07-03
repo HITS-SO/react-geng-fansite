@@ -6,6 +6,7 @@ import duro from "@/assets/images/players/duro.png";
 
 export interface Player {
     id: number;
+    slug: string;
     nickname: string;
     name: string;
     role: "TOP" | "JGL" | "MID" | "ADC" | "SUP";
@@ -16,6 +17,7 @@ export interface Player {
 export const players: Player[] = [
     {
         id: 1,
+        slug: "kiin",
         nickname: "Kiin",
         name: "김기인",
         role: "TOP",
@@ -24,6 +26,7 @@ export const players: Player[] = [
     },
     {
         id: 2,
+        slug: "canyon",
         nickname: "Canyon",
         name: "김건부",
         role: "JGL",
@@ -32,6 +35,7 @@ export const players: Player[] = [
     },
     {
         id: 3,
+        slug: "chovy",
         nickname: "Chovy",
         name: "정지훈",
         role: "MID",
@@ -40,6 +44,7 @@ export const players: Player[] = [
     },
     {
         id: 4,
+        slug: "ruler",
         nickname: "Ruler",
         name: "박재혁",
         role: "ADC",
@@ -48,6 +53,7 @@ export const players: Player[] = [
     },
     {
         id: 5,
+        slug: "duro",
         nickname: "Duro",
         name: "주민규",
         role: "SUP",
