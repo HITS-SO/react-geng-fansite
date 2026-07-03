@@ -8,6 +8,7 @@ import Section from "../components/common/Section";
 import SectionTitle from "../components/common/SectionTitle";
 import CurrentRosterPreview from "../components/home/CurrentRosterPreview";
 import FeaturedPlayer from "@/components/home/FeaturedPlayer";
+import AchievementPreview from "@/components/home/AchievementPreview";
 
 export const Home = () => {
     return (
@@ -16,6 +17,7 @@ export const Home = () => {
             <HeroSection hero={homeHero} />
             <CurrentRosterPreview />
             <FeaturedPlayer />
+            <AchievementPreview />
             <Footer />
         </main>
     );
