@@ -39,7 +39,7 @@ const FeaturedPlayer = () => {
                 {/* Content */}
 
                 <div>
-                    <p className="text-sm font-semibold text-orange-500">
+                    <p className="text-sm font-semibold text-[var(--color-geng-gold)]">
                         {featuredPlayer.role}
                     </p>
 
@@ -63,7 +63,7 @@ const FeaturedPlayer = () => {
                             py-3
                         text-white
                             transition-colors
-                         hover:bg-orange-500
+                         hover:bg-[var(--color-geng-gold)]
                         "
                     >
                         {featuredPlayer.buttonText}

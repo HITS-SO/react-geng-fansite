@@ -35,7 +35,7 @@ const AchievementPreview = () => {
                         py-3
                         text-white
                         transition-colors
-                        hover:bg-orange-500
+                        hover:bg-[var(--color-geng-gold)]
                     "
                 >
                     Gen.G의 레거시

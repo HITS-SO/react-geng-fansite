@@ -8,7 +8,7 @@ const Legacy = () => {
                     "{legacy.quote}"
                 </p>
 
-                <h2 className="mt-10 text-5xl font-extrabold text-orange-500">
+                <h2 className="mt-10 text-5xl font-extrabold text-[var(--color-geng-gold)]">
                     Thank You,
                     <br />
                     Ruler
@@ -18,7 +18,7 @@ const Legacy = () => {
                     {legacy.message}
                 </p>
 
-                <div className="mt-16 h-px w-32 bg-orange-500" />
+                <div className="mt-16 h-px w-32 bg-[var(--color-geng-gold)]" />
 
                 <p className="mt-8 text-sm uppercase tracking-[0.4em] text-gray-500">
                     Gen.G Esports Fan Project

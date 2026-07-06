@@ -7,10 +7,12 @@ import CurrentRosterPreview from "../components/home/CurrentRosterPreview";
 import FeaturedPlayer from "@/components/home/FeaturedPlayer";
 import AchievementPreview from "@/components/home/AchievementPreview";
 import QuickLinkSection from "@/components/home/QuickLinkSection";
+import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const Home = () => {
     return (
         <main>
+            <ScrollToTop />
             <Header />
             <HeroSection hero={homeHero} />
             <CurrentRosterPreview />

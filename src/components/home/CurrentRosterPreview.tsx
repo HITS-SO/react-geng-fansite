@@ -37,7 +37,7 @@ const CurrentRosterPreview = () => {
                         py-3
                         text-white
                         transition-colors
-                        hover:bg-orange-500
+                        hover:bg-[var(--color-geng-gold)]
                     "
                 >
                     상세 로스터 보러가기

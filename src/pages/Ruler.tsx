@@ -11,6 +11,7 @@ import { rulerHero } from "@/data/hero";
 
 import bgm from "@/assets/music/legend.mp3";
 import { Header } from "@/components/common/Header";
+import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const Ruler = () => {
     const audioRef = useRef<HTMLAudioElement>(null);
@@ -30,8 +31,9 @@ export const Ruler = () => {
     }, []);
 
     return (
-        <>
+        <main>
             <audio ref={audioRef} src={bgm} loop />
+            <ScrollToTop />
             <Header />
 
             <HeroSection hero={rulerHero} />
@@ -45,6 +47,6 @@ export const Ruler = () => {
             <Gallery />
 
             <Legacy />
-        </>
+        </main>
     );
 };

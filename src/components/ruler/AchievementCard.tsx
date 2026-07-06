@@ -18,7 +18,9 @@ const AchievementCard = ({ title, value }: AchievementCardProps) => {
                 hover:shadow-xl
             "
         >
-            <h3 className="text-5xl font-extrabold text-orange-500">{value}</h3>
+            <h3 className="text-5xl font-extrabold text-[var(--color-geng-gold)]">
+                {value}
+            </h3>
 
             <p className="mt-5 text-lg font-semibold text-gray-700">{title}</p>
         </div>

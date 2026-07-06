@@ -20,7 +20,7 @@ const QuickLinkCard = ({ link }: QuickLinkCardProps) => {
                 transition-all
                 duration-300
                 hover:-translate-y-2
-                hover:border-orange-500
+                hover:border-[var(--color-geng-gold)]
                 hover:shadow-lg
             "
         >
@@ -34,7 +34,7 @@ const QuickLinkCard = ({ link }: QuickLinkCardProps) => {
                 className="
                     mt-5
                     font-semibold
-                    text-orange-500
+                    text-[var(--color-geng-gold)]
                     transition-transform
                     group-hover:translate-x-2
                 "

@@ -26,7 +26,7 @@ const Introduction = () => {
                 {/* Content */}
 
                 <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.3em] text-orange-500">
+                    <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-geng-gold)]">
                         10th Anniversary
                     </p>
 
@@ -46,7 +46,7 @@ const Introduction = () => {
                         <div
                             className="
                                 rounded-full
-                                bg-orange-500
+                                bg-[var(--color-geng-gold)]
                                 px-5
                                 py-2
                                 font-semibold
@@ -60,11 +60,11 @@ const Introduction = () => {
                             className="
                                 rounded-full
                                 border
-                                border-orange-500
+                                border-[var(--color-geng-gold)]
                                 px-5
                                 py-2
                                 font-semibold
-                                text-orange-500
+                                text-[var(--color-geng-gold)]
                             "
                         >
                             Gen.G Legend

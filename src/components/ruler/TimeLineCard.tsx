@@ -10,7 +10,7 @@ const TimelineCard = ({ event }: TimelineCardProps) => {
             {/* Timeline */}
 
             <div className="flex flex-col items-center">
-                <div className="h-5 w-5 rounded-full bg-orange-500" />
+                <div className="h-5 w-5 rounded-full bg-[var(--color-geng-gold)]" />
 
                 <div className="mt-2 h-full w-1 bg-orange-200" />
             </div>
@@ -18,7 +18,7 @@ const TimelineCard = ({ event }: TimelineCardProps) => {
             {/* Content */}
 
             <div className="pb-12">
-                <p className="text-lg font-bold text-orange-500">
+                <p className="text-lg font-bold text-[var(--color-geng-gold)]">
                     {event.year}
                 </p>
 

@@ -17,19 +17,37 @@ const HeroSection = ({ hero }: HeroSectionProps) => {
     }, [hero.images.length]);
 
     return (
-        <section className="relative h-[400px] overflow-hidden md:h-[550px] lg:h-[550px]">
+        <section
+            className="
+            relative
+            overflow-hidden
+
+            h-[55vh]
+            min-h-[450px]
+            max-h-[850px]
+        "
+        >
             {/* Hero Image */}
             <img
                 src={hero.images[currentImage].src}
                 alt={hero.images[currentImage].alt}
-                className="absolute inset-0 h-full w-full object-cover object-center"
+                style={{
+                    objectPosition:
+                        hero.images[currentImage].position ?? "center",
+                }}
+                className="
+                    absolute
+                    inset-0
+                    h-full
+                    w-full
+                    object-cover
+                "
             />
-
             {/* Text */}
-            <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-white">
+            <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-[var(--color-geng-gold)]">
                 <h1 className="text-5xl font-bold md:text-6xl">{hero.title}</h1>
 
-                <p className="mt-5 max-w-3xl text-lg text-gray-200 md:text-xl">
+                <p className="mt-5 max-w-3xl text-lg  md:text-xl">
                     {hero.subtitle}
                 </p>
             </div>

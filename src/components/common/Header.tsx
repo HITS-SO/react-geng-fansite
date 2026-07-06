@@ -43,8 +43,8 @@ export const Header = () => {
                                     className={({ isActive }) =>
                                         `text-sm font-medium transition-colors duration-300 ${
                                             isActive
-                                                ? "text-yellow-400"
-                                                : "text-gray-300 hover:text-yellow-400"
+                                                ? "text-[var(--color-geng-gold)]"
+                                                : "text-gray-300 hover:text-[var(--color-geng-gold)]"
                                         }`
                                     }
                                 >

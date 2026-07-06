@@ -20,7 +20,7 @@ const AchievementCard = ({ achievement }: AchievementCardProps) => {
                 hover:shadow-lg
             "
         >
-            <p className="text-sm font-semibold text-orange-500">
+            <p className="text-sm font-semibold [var(--color-geng-gold)]">
                 {achievement.year}
             </p>
 

@@ -14,7 +14,7 @@ const HistoryTabs = ({ current, onChange }: Props) => {
                     onClick={() => onChange(tab.id)}
                     className={`rounded-lg px-6 py-3 font-semibold transition ${
                         current === tab.id
-                            ? "bg-orange-500 text-white"
+                            ? "bg-black text-[var(--color-geng-gold)]"
                             : "bg-gray-200 hover:bg-gray-300"
                     }`}
                 >

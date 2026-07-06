@@ -4,7 +4,7 @@ export const Vision = () => {
     return (
         <section className="bg-black py-24 text-white">
             <div className="mx-auto max-w-5xl px-6 text-center">
-                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-orange-500">
+                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-geng-gold)]">
                     Our Vision
                 </p>
 
@@ -12,7 +12,7 @@ export const Vision = () => {
                     {vision.title}
                 </h2>
 
-                <h3 className="mt-2 text-2xl font-bold text-orange-500 md:text-4xl">
+                <h3 className="mt-2 text-2xl font-bold text-[var(--color-geng-gold)] md:text-4xl">
                     {vision.subtitle}
                 </h3>
 

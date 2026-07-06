@@ -9,6 +9,7 @@ import playerBanner from "@/assets/images/players/playerBanner.jpg";
 export interface HeroImage {
     src: string;
     alt: string;
+    position?: string;
 }
 
 export interface HeroData {
@@ -22,18 +23,22 @@ export const homeHero = {
         {
             src: home1,
             alt: "Gen.G Team",
+            position: "center top",
         },
         {
             src: home2,
             alt: "Gen.G Champion",
+            position: "center 20%",
         },
         {
             src: home3,
             alt: "Gen.G Players",
+            position: "center top",
         },
         {
             src: home4,
             alt: "Gen.G Arena",
+            position: "center top",
         },
     ],
 
@@ -47,6 +52,7 @@ export const playerHero: HeroData = {
         {
             src: playerBanner,
             alt: "Gen.G Players",
+            position: "center 50%",
         },
     ],
     title: "",
@@ -58,10 +64,12 @@ export const rulerHero: HeroData = {
         {
             src: ruler1,
             alt: "Ruler lifting the World Championship trophy",
+            position: "center 40%",
         },
         {
             src: ruler2,
             alt: "Ruler during the 2017 World Championship",
+            position: "center 20%",
         },
     ],
     title: "10 YEARS OF RULER",

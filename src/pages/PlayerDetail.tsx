@@ -19,7 +19,7 @@ export const PlayerDetail = () => {
 
                     <Link
                         to="/players"
-                        className="mt-6 inline-block rounded-lg bg-black px-6 py-3 text-white hover:bg-orange-500"
+                        className="mt-6 inline-block rounded-lg bg-black px-6 py-3 text-white hover:bg-[var(--color-geng-gold)]"
                     >
                         Back to Players
                     </Link>
@@ -47,7 +47,7 @@ export const PlayerDetail = () => {
                     {/* Player Info */}
 
                     <div className="flex flex-col justify-center">
-                        <p className="text-lg font-semibold text-orange-500">
+                        <p className="text-lg font-semibold text-[var(--color-geng-gold)]">
                             {player.role}
                         </p>
 
@@ -75,7 +75,7 @@ export const PlayerDetail = () => {
                                 py-3
                                 text-white
                                 transition-colors
-                                hover:bg-orange-500
+                                hover:bg-[var(--color-geng-gold)]
                             "
                         >
                             ← Back to Players

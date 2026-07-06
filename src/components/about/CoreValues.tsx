@@ -19,13 +19,13 @@ export const CoreValues = () => {
                             rounded-xl
                             border
                             border-gray-200
-                            bg-white
+                            bg-[var(--color-white)]
                             p-8
                             shadow-md
                             transition-all
                             duration-300
                             hover:-translate-y-2
-                            hover:border-orange-500
+                            hover:border-[var(--color-geng-gold)]
                             hover:shadow-xl
                         "
                     >

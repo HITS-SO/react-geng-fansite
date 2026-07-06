@@ -31,7 +31,7 @@ const TeamMemberCard = ({
             />
 
             <div className="p-5">
-                <p className="text-sm font-semibold text-orange-500">
+                <p className="text-sm font-semibold text-[var(--color-geng-gold)]">
                     {position}
                 </p>
 

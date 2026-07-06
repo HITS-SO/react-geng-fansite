@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+:root {
+    /* Base Colors */
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    /* Brand Colors */
+    --color-geng-gold: #d1b884;
+    --color-ssg-blue: #1428a0;
+}
