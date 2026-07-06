@@ -6,6 +6,7 @@ import { PlayerDetail } from "@/pages/PlayerDetail";
 import { Players } from "@/pages/Players";
 import About from "@/pages/About";
 import History from "@/pages/History";
+import { Ruler } from "@/pages/Ruler";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
     {
         path: "/history",
         element: <History />,
+    },
+    {
+        path: "/ruler",
+        element: <Ruler />,
     },
 ]);
 
