@@ -30,8 +30,6 @@ export const PlayerDetail = () => {
 
     return (
         <>
-            <HeroSection hero={playerHero} />
-
             <Section>
                 <div className="grid gap-12 lg:grid-cols-2">
                     {/* Player Image */}

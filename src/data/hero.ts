@@ -73,5 +73,5 @@ export const rulerHero: HeroData = {
         },
     ],
     title: "10 YEARS OF RULER",
-    subtitle: "Celebrating a Decade of Greatness",
+    subtitle: "룰러 10년의 수려함",
 };

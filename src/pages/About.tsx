@@ -11,9 +11,9 @@ const About = () => {
             <ScrollToTop />
             <Header />
 
-            <Introduction />
-
             <Vision />
+
+            <Introduction />
 
             <CoreValues />
 

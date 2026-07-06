@@ -9,7 +9,7 @@ const CareerTimeline = () => {
     return (
         <Section>
             <SectionTitle
-                title="Career Timeline"
+                title="위대한 발자취"
                 subtitle="A Journey Through Ten Remarkable Years"
             />
 

@@ -9,7 +9,7 @@ const Gallery = () => {
     return (
         <Section>
             <SectionTitle
-                title="Gallery"
+                title="영광의 순간들"
                 subtitle="Memorable Moments Throughout His Career"
             />
 

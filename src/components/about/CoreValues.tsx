@@ -19,7 +19,7 @@ export const CoreValues = () => {
                             rounded-xl
                             border
                             border-gray-200
-                            bg-[var(--color-white)]
+                            bg-[var(--color-black)]
                             p-8
                             shadow-md
                             transition-all
@@ -29,9 +29,11 @@ export const CoreValues = () => {
                             hover:shadow-xl
                         "
                     >
-                        <h3 className="text-2xl font-bold">{value.title}</h3>
+                        <h3 className="text-2xl font-bold text-[var(--color-geng-gold)]">
+                            {value.title}
+                        </h3>
 
-                        <p className="mt-4 leading-7 text-gray-600">
+                        <p className="mt-4 leading-7 text-white">
                             {value.description}
                         </p>
                     </div>

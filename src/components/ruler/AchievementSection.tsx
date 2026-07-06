@@ -9,7 +9,7 @@ const AchievementSection = () => {
     return (
         <Section>
             <SectionTitle
-                title="Career Achievements"
+                title="10년의 성취"
                 subtitle="Celebrating a Decade of Excellence"
             />
 
